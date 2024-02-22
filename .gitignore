@@ -3,7 +3,6 @@ tmp
 .env
 
 
-src/controllers
 src/database
 src/providers
 src/routes/
