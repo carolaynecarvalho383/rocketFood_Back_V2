@@ -5,7 +5,6 @@ tmp
 
 src/database
 src/providers
-src/routes/
 src/utils
 src/middleware
 
