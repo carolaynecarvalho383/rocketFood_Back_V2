@@ -2,7 +2,6 @@ require("express-async-errors");
 require("dotenv/config");
 const AppError = require("./utils/AppError")
 const uploadConfig = require("./config/upload")
-const pgConnection = require('./database/pg')
 const cors = require("cors")
 const express = require("express");
 
@@ -14,7 +13,6 @@ app.use(cors())
 app.use(express.json());
 
 app.use("/files", express.static(uploadConfig.UPLOAD_FOLDER))
-pgConnection()
 app.use(routes)
 
 app.use((error, req, res, next)=> {
