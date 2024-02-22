@@ -1,0 +1,13 @@
+node_modules
+tmp
+.env
+
+
+src/controllers
+src/database
+src/providers
+src/routes/
+src/utils
+src/middleware
+
+
