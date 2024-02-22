@@ -3,7 +3,6 @@ tmp
 .env
 
 
-src/database
-src/middleware
+src/databas
 
 
