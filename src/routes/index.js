@@ -18,6 +18,9 @@ routes.use("/purchases", purchasesRouter);
 routes.use("/requests", requestsRouter);
 routes.use("/loadProduct", loadProductController);
 routes.use("/favorites", favoritesRouter);
+routes.use("healthcheck", ()=>{
+  console.log("server checked")
+})
 
 
 

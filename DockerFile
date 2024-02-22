@@ -1,0 +1,10 @@
+# Use a imagem oficial do Node.js
+FROM node:14
+
+RUN apt-get update -y && apt-get install -y openssl procps
+
+WORKDIR /home/node/app
+
+USER node 
+
+CMD ["tail", "-f", "/dev/null"]
