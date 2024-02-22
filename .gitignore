@@ -4,7 +4,6 @@ tmp
 
 
 src/database
-src/providers
 src/utils
 src/middleware
 
